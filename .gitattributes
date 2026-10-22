@@ -1,0 +1,13 @@
+# Configuration for git attributes
+# Default behavior
+yarn.lock linguist-generated
+
+*.bat text eol=crlf
+public/* linguist-vendored 
+*.ts linguist-detectable
+*.jpg binary
+*.tsx linguist-detectable
+*.yml linguist-detectable=false
+*.jpeg binary
+public/index.html linguist-vendored
+# eof 3e3aa134
